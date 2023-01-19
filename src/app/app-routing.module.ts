@@ -4,8 +4,11 @@ import { StudentComponent } from './student/student/student.component';
 import { ViewstudentComponent } from './student/viewstudent/viewstudent/viewstudent.component';
 
 const routes: Routes = [
- {path:'', component:StudentComponent},
- { path:'student' , component:StudentComponent},
+  {
+    path:'', component:StudentComponent
+  },
+  {
+    path:'student' , component:StudentComponent},
  {
   path:'student/:id' , component:ViewstudentComponent
  }
